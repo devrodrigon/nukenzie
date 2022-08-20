@@ -1,0 +1,25 @@
+.total__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 1.5rem;
+
+    border: 0.0625rem solid var(--color-grey-2);
+    border-radius: 0.25rem;
+}
+
+.total{
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--color-grey-4);
+}
+
+.total__description{
+    font-size: 0.75rem;
+    color: var(--color-grey-3);
+}
+
+.value{
+    font-weight: 700;
+    color: var(--color-primary);
+    font-size: 1rem;
+}
